@@ -214,6 +214,23 @@ nav a {
   align-items: center;
   justify-content: center;
 }
+.about-box {
+  width: 40%;
+  border-bottom: 1px dashed black;
+  margin: 3%;
+}
+.about-box p {
+  margin: 2%;
+}
+.button {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+  padding: 2%;
+  margin: 2%;
+}
 
 #box1 {
   background-color: teal;
