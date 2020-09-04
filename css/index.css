@@ -214,23 +214,6 @@ nav a {
   align-items: center;
   justify-content: center;
 }
-.about-box {
-  width: 40%;
-  border-bottom: 1px dashed black;
-  margin: 3%;
-}
-.about-box p {
-  margin: 2%;
-}
-.button {
-  display: inline-block;
-  border: 1px solid black;
-  border-radius: 10px;
-  color: black;
-  text-decoration: none;
-  padding: 2%;
-  margin: 2%;
-}
 
 #box1 {
   background-color: teal;
@@ -294,4 +277,33 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+/*about section*/
+
+.about-box {
+  width: 45%;
+  border-bottom: 1px dashed black;
+  margin: 2%;
+}
+.about-box img {
+  width: 100%;
+}
+
+.button {
+  display: inline-block;
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  text-decoration: none;
+  padding: 2%;
+  margin: 2% 0;
+  text-align: center;
+}
+.about-top-content {
+  margin: 2%;
+}
+.about-bottom-content {
+  margin: 2%;
 }
